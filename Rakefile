@@ -13,7 +13,7 @@ task :default => :test
 
 gem_spec = Gem::Specification.new do |gem_spec|
   gem_spec.name        = "twitter-search-extra"
-  gem_spec.version     = "0.5.8"
+  gem_spec.version     = "0.5.9"
   gem_spec.summary     = "Ruby client for Twitter Search. Includes trends and extra sugar."
   gem_spec.email       = "cbmeeks@gmail.com"
 #  gem_spec.homepage    = "http://github.com/cbmeeks/twitter-search-extra"
