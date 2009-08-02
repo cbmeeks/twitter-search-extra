@@ -49,7 +49,7 @@ files:
 - lib/tweets.rb
 - shoulda_macros/twitter_search.rb
 has_rdoc: true
-homepage: http://github.com/cbmeeks/twitter-search-extra
+homepage: git@github.com:cbmeeks/twitter-search-extra.git
 licenses: []
 
 post_install_message: 
