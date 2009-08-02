@@ -6,7 +6,7 @@ Access the Twitter Search API from your Ruby code.
 
 Install the gem.
 
-    sudo gem install dancroak-twitter-search -s http://gems.github.com
+    sudo gem install cbmeeks-twitter-search-extra -s http://gems.github.com
 
 Require the gem.
 
