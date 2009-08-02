@@ -1,5 +1,5 @@
 --- !ruby/object:Gem::Specification 
-name: twitter-search
+name: twitter-search-extra
 version: !ruby/object:Gem::Version 
   version: 0.5.8
 platform: ruby
@@ -13,11 +13,12 @@ authors:
 - Danny Burkes
 - Don Brown
 - HotFusionMan
+- Cecil Meeks (cbmeeks@gmail.com)
 autorequire: 
 bindir: bin
 cert_chain: []
 
-date: 2009-06-30 00:00:00 -04:00
+date: 2009-08-02 00:00:00 -04:00
 default_executable: 
 dependencies: 
 - !ruby/object:Gem::Dependency 
@@ -30,8 +31,8 @@ dependencies:
       - !ruby/object:Gem::Version 
         version: 1.1.2
     version: 
-description: Ruby client for Twitter Search.
-email: dcroak@thoughtbot.com
+description: Ruby client for Twitter Search with extra sugar.
+email: cbmeeks@gmail.com
 executables: []
 
 extensions: []
@@ -39,16 +40,16 @@ extensions: []
 extra_rdoc_files: []
 
 files: 
-- CHANGELOG.textile
+- TODO.markdown
 - Rakefile
 - README.markdown
-- TODO.markdown
+- CHANGELOG.textile
+- lib/twitter_search.rb
 - lib/trends.rb
 - lib/tweets.rb
-- lib/twitter_search.rb
 - shoulda_macros/twitter_search.rb
 has_rdoc: true
-homepage: http://github.com/dancroak/twitter-search
+homepage: http://github.com/cbmeeks/twitter-search-extra
 licenses: []
 
 post_install_message: 
@@ -71,9 +72,9 @@ required_rubygems_version: !ruby/object:Gem::Requirement
 requirements: []
 
 rubyforge_project: 
-rubygems_version: 1.3.4
+rubygems_version: 1.3.5
 signing_key: 
 specification_version: 3
-summary: Ruby client for Twitter Search. Includes trends.
+summary: Ruby client for Twitter Search. Includes trends and extra sugar.
 test_files: []
 
