@@ -12,13 +12,13 @@ desc "Run the test suite"
 task :default => :test
 
 gem_spec = Gem::Specification.new do |gem_spec|
-  gem_spec.name        = "twitter-search"
+  gem_spec.name        = "twitter-search-extra"
   gem_spec.version     = "0.5.8"
-  gem_spec.summary     = "Ruby client for Twitter Search. Includes trends."
-  gem_spec.email       = "dcroak@thoughtbot.com"
-  gem_spec.homepage    = "http://github.com/dancroak/twitter-search"
-  gem_spec.description = "Ruby client for Twitter Search."
-  gem_spec.authors     = ["Dustin Sallings", "Dan Croak", "Luke Francl", "Matt Jankowski", "Matt Sanford", "Alejandro Crosa", "Danny Burkes", "Don Brown", "HotFusionMan"]
+  gem_spec.summary     = "Ruby client for Twitter Search. Includes trends and extra sugar."
+  gem_spec.email       = "cbmeeks@gmail.com"
+  gem_spec.homepage    = "http://github.com/cbmeeks/twitter-search-extra"
+  gem_spec.description = "Ruby client for Twitter Search with extra sugar."
+  gem_spec.authors     = ["Dustin Sallings", "Dan Croak", "Luke Francl", "Matt Jankowski", "Matt Sanford", "Alejandro Crosa", "Danny Burkes", "Don Brown", "HotFusionMan", "Cecil Meeks (cbmeeks@gmail.com)"]
   gem_spec.files       = FileList["[A-Z]*", "{lib,shoulda_macros}/**/*"]
   gem_spec.add_dependency('json', '>= 1.1.2')
 end
